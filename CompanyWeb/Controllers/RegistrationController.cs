@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace CompanyWeb.Controllers
 {
-    public class RegisterationController : Controller
+    public class RegistrationController : Controller
     {
         // GET: Registration
         public ActionResult Index()
