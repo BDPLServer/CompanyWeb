@@ -8,6 +8,7 @@ namespace CompanyWeb.Controllers
 {
     public class HomeController : Controller
     {
+
         public ActionResult Index()
         {
             return View();
@@ -15,14 +16,28 @@ namespace CompanyWeb.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Our Company Mission";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Our contact page.";
+            
+            return View();
+        }
+       
+        public ActionResult Portfolio()
+        {
+            ViewBag.Message = "Our Company Portfolio";
+
+            return View();
+        }
+
+        public ActionResult Products()
+        {
+            ViewBag.Message = "Our Products";
 
             return View();
         }
